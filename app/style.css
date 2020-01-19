@@ -1,0 +1,11 @@
+table {
+    border: solid green;
+}
+
+td {
+    border: solid black;
+}
+
+tr {
+    border: solid red;
+}
