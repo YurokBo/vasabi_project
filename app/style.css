@@ -1,11 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 table {
     border: solid green;
+    max-width: 100%;
+    min-width: 50%;
+}
+
+.table-caption {
+    border: solid red;
+}
+
+tr {
+    height: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 td {
     border: solid black;
+    text-align: center;
+    height: 20px;
+    width: auto;
 }
 
 tr {
     border: solid red;
+}
+
+#short {
+    width: 40px;
+}
+
+#long {
+    width: 90px;
 }
